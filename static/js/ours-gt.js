@@ -9,8 +9,8 @@ function copyToClipboard() {
 }
 
 const videos = [
-  "./static/video/pulling-ours.mp4",
-  "./static/video/cutting-ours.mp4",
+  "./static/video/singlegs-box.mp4",
+  "./static/video/singlegs-kongfu.mp4",
   "./static/video/intestine-ours.mp4",
   "./static/video/liver-ours.mp4"
 ];
