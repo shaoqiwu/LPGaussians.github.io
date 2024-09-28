@@ -11,7 +11,7 @@ function copyToClipboard() {
 
 const videosGroup2 = [
  "./static/video/output_combined_kongfu.mp4",
-  "./static/video/cutting.mp4",
+  "./static/video/output_combined_kongfu.mp4",
 ];
 let currentIndex2 = 0;
 
