@@ -11,8 +11,8 @@ function copyToClipboard() {
 const videos = [
   "./static/video/singlegs-box.mp4",
   "./static/video/singlegs-kongfu.mp4",
-  "./static/video/intestine-ours.mp4",
-  "./static/video/liver-ours.mp4"
+  "./static/video/rollerblade.mp4",
+  "./static/video/marionette.mp4"
 ];
 let currentIndex = 0;
 
