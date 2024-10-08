@@ -185,46 +185,41 @@
      <br>
      <div id="video-container" style="height: 400px; width: 100%; padding: 0; border: none; box-shadow: none;">
        <video id="video-player-2" autoplay muted playsinline controls style="width: 100%; border: none; padding: 0;">
-         <source src="your-video-file.mp4" type="video/mp4">
+         <source src="static/video/roller.mp4" type="video/mp4">
          Your browser does not support the video tag.
        </video>
-       <button id="prev-button-2"></button>
-       <button id="next-button-2"></button>
      </div>
      <div id="dots-container-2"></div>
      <br>
-     <p>
-       D-NeRF* and 4D-GS* are modified versions of the original model with depth supervision, which are fairly compared with our method.
-     </p>
 
-     <!-- 新的视频展示区域，垂直排列 -->
-     <div class="video-gallery" style="display: flex; flex-direction: column; align-items: center; margin-top: 20px;">
-       <!-- 第一个展示视频，自动播放，静音 -->
-       <div class="video-item" style="width: 60%; margin-bottom: 20px;">
-         <video controls autoplay muted playsinline style="width: 100%;">
-           <source src="static/video/roller.mp4" type="video/mp4">
-           Your browser does not support the video tag.
-         </video>
-         <p style="text-align: center;">Roller Video</p>
-       </div>
+     <!-- 统一后的第一个展示视频的描述文字 -->
+     <div class="video-item" style="width: 60%; margin-bottom: 20px;">
+       <video controls autoplay muted playsinline style="width: 100%;">
+         <source src="static/video/roller.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+       </video>
+       <p style="text-align: center;">
+         <strong>Object Removal Comparison: LP-Gaussians vs. ProPainter</strong><br>
+         This video shows a comparison between LP-Gaussians and ProPainter in object removal. In the "Roller-blade" scene, ProPainter leaves blur on the wall, while LP-Gaussians restores the occluded areas more clearly.
+       </p>
+     </div>
 
-       <!-- 第二个展示视频，自动播放，静音 -->
-       <div class="video-item" style="width: 60%;">
-         <video controls autoplay muted playsinline style="width: 100%;">
-           <source src="static/video/marri.mp4" type="video/mp4">
-           Your browser does not support the video tag.
-         </video>
-         <p style="text-align: center;">Marri Video</p>
-       </div>
+     <!-- 统一后的第二个展示视频的描述文字 -->
+     <div class="video-item" style="width: 60%;">
+       <video controls autoplay muted playsinline style="width: 100%;">
+         <source src="static/video/marri.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+       </video>
+       <p style="text-align: center;">
+         <strong>Object Removal and Reconstruction: Marionette Scene</strong><br>
+         In this video, our approach not only successfully removes the control lines from the Marionette scene but also reconstructs the complete point clouds of the scene, providing a more accurate and detailed result.
+       </p>
      </div>
    </div>
    <script src="./static/js/ppage.js"></script>
  </div>
 </section>
 <!-- 视频滚动 -->
-
-
-
 
 <section class="section">
   <div class="container is-max-desktop">
